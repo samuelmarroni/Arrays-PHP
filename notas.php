@@ -24,3 +24,4 @@ echo 'Alguém tirou 10?' . PHP_EOL;
 var_dump(in_array(10, $notas, true));
 
 echo 'Quem tirou 10?' . PHP_EOL;
+var_dump(array_search(10, $notas, true));
